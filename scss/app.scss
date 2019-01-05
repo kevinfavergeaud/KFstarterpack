@@ -1,9 +1,15 @@
+/**
+  KF STARTERPACK - 2019
+  https://github.com/kevinfavergeaud
+ */
+
 $primary:#fff;
 $secondary:#000;
 
 // Bases
-@import "Bases/bases";
 @import "Bases/mixins";
+@import "Bases/bases";
+@import "Bases/btn";
 
 // Elements
 @import "Elements/nav";
