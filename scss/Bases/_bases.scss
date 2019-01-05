@@ -7,3 +7,33 @@ h1,h2,h3,h4,h5,h6
 {
   font-weight: 700;
 }
+
+.scare-ratio
+{
+  @include ratio(1, 1);
+  overflow: hidden;
+  width: 100%;
+  .content
+  {
+    width: 100%;
+  }
+  img,figure
+  {
+    @extend .content;
+  }
+}
+
+.video-ratio
+{
+  @include ratio(16,9);
+  overflow: hidden;
+  width: 100%;
+  .content
+  {
+    width: 100%;
+  }
+  img,figure
+  {
+    @extend .content;
+  }
+}
